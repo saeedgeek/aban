@@ -1,0 +1,156 @@
+# Django specific:
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Environment variables:
+.env
+*.env
+
+# Database:
+db.sqlite3
+db.sqlite3-journal
+
+# venv folders:
+venv/
+.env/
+.venv/
+
+# PyCharm project files
+.idea/
+
+# VS Code project files
+.vscode/
+
+# Pytest cache
+.cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Migrations:
+*/migrations/
+**/migrations/*
+
+# Static and media files:
+staticfiles/
+media/
+
+# Temporary files:
+*.tmp
+*.temp
+*.swp
+*~
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+.venv/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+*.egg-info/
+MANIFEST
+
+# Packaging:
+*.egg
+*.manifest
+*.spec
+
+# Docs:
+.docs/_build/
+
+# C extensions
+*.so
+
+# Cython debug symbols
+cython_debug/
+
+# Translations:
+*.mo
+*.pot
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule.*
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.envrc
+venv/
+env/
+.env.interprete
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# IDEs and editors:
+.idea/
+.vscode/
+*.sublime-*
+
+# Test coverage folder
+htmlcov/
+
+# Coverage reports
+.coverage
+.coverage.*
+
+# Python profiler results
+.prof
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# PEP 582; used by e.g. github.com/pypa/pipx
+__pypackages__/
